@@ -1,3 +1,3 @@
 (function(){
-	console.log('dd');
+	console.log('second');
 })()
