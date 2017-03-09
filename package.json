@@ -1,0 +1,25 @@
+{
+  "name": "start-vue",
+  "version": "1.0.0",
+  "description": "start-vue-01",
+  "main": "entry.js",
+  "dependencies": {
+    "nvm": "^0.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuoerrimo/start-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuoerrimo/start-vue/issues"
+  },
+  "homepage": "https://github.com/zuoerrimo/start-vue#readme"
+}
