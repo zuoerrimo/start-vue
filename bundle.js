@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -93,7 +93,7 @@ exports = module.exports = __webpack_require__(3)();
 
 
 // module
-exports.push([module.i, "body{\n  background:red;\n  color: yellow;\n}\n", ""]);
+exports.push([module.i, "body{\n  background:pink;\n  color: yellow;\n}\n#logo{\n  background-image: url(" + __webpack_require__(6) + ");\n  height: 500px;\n  width: 500px;\n}\n", ""]);
 
 // exports
 
@@ -434,6 +434,12 @@ if(false) {
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "81d9c7ffde179ceb0352310675aacfc2.jpg";
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(0);
