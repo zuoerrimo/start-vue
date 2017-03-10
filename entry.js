@@ -5,6 +5,20 @@ var Vue = require('vue/dist/vue.min.js');
 new Vue({
   el: '#container',
   data: {
-    message: 'hello'
-  }
+    message: 'hello' + new Date(),
+    seen: false,
+    items:[
+      {text: 'one'},
+      {text: 'two'},
+      {text: 'three'},
+      {text: 'four'},
+      {text: 'five'},
+    ],
+    content: '12345',
+  },
+  methods: {
+    reverseContent: function(){
+      this.content = this.content.split('').reverse().join('');
+    }
+  },
 })
