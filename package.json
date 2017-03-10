@@ -4,14 +4,16 @@
   "description": "start-vue-01",
   "main": "entry.js",
   "dependencies": {
-    "nvm": "^0.0.4"
+    "nvm": "^0.0.4",
+    "vue": "^2.2.2"
   },
   "devDependencies": {
     "css-loader": "^0.26.4",
     "file-loader": "^0.10.1",
     "style-loader": "^0.13.2",
     "url-loader": "^0.5.8",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
